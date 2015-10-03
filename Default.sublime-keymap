@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+w"], "command": "intercept_close" }
+]

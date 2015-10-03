@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Sticky: Stick Current Tab",
+        "command": "stick_current_tab"
+    },
+    {
+        "caption": "Sticky: Unstick Current Tab",
+        "command": "unstick_current_tab"
+    }
+]
