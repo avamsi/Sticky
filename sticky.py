@@ -12,6 +12,12 @@ class InterceptCloseCommand(sublime_plugin.TextCommand):
 
 
 class StickCurrentTabCommand(sublime_plugin.TextCommand):
+    def __init__(self, view):
+        settings = sublime.load_settings('sticky.sublime-settings')
+        if view.file_name() in settings.get('sticked'):
+            view.set_status('_', 'STICKED')
+        self.view = view
+
     def run(self, edit):
         settings = sublime.load_settings('sticky.sublime-settings')
         sticked = settings.get('sticked')
