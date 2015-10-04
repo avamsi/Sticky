@@ -7,7 +7,7 @@ Sticky tabs don't close with normal keybinding `ctrl+w`.
 You can stick/unstick tabs from Command Palette.  
 ![Failed to load!](https://i.imgur.com/sDVbtfp.png)
 
-You can know "stick"iness of a tab from status bar.  
+You can know "stickiness" of a tab from status bar.  
 ![Failed to load!](https://i.imgur.com/1g6mvZ3.png)
 
 ### Installation
