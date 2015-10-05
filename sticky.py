@@ -13,7 +13,7 @@ def load_settings(save=True):
 
 def plugin_loaded(): # cleaning up
     with load_settings() as tabs:
-        for tab in tabs.keys():
+        for tab in list(tabs.keys()):
             if tab.startswith('sticky-id'):
                 del tabs[tab]
 
