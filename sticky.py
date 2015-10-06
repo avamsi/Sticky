@@ -47,7 +47,7 @@ class StickCurrentTabCommand(sublime_plugin.TextCommand):
 class UnstickCurrentTabCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         with load_settings() as tabs:
-            tab = self.view_file_name()
+            tab = self.view.file_name()
             if tab is None:
                 tab = 'sticky-id: %s' % self.view.id()
             tabs.pop(tab, None)
