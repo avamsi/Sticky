@@ -11,9 +11,21 @@ You can know "stickiness" of a tab from status bar.
 ![Failed to load!](https://i.imgur.com/FeBSW8R.png)
 
 ### Installation
-Download and extract to your packages folder. (`Menu` &#10153; `Preferences` &#10153; `Browse Packages`)
+1. Install [Package Control](https://packagecontrol.io/installation).
+2. Add this [repository](https://github.com/krikx/Sticky/).
+  ```
+  Preferences ❯ Package Control ❯ Package Control: Add Repository
+  Add https://github.com/krikx/Sticky/
+  ```
 
-##### Using [Package Control](https://packagecontrol.io/installation)
-1. Command Palette (`ctrl+shift+p`) &#10153; `Package Control: Add Repository`.
-2. Add this [link](https://github.com/krikx/Sticky/).
-3. Command Palette &#10153; `Package Control: Install Package` &#10153; `Sticky`.
+3. Install Sticky.
+  ```
+  Preferences ❯ Package Control ❯ Package Control: Install Package
+  Choose Sticky
+  ```
+
+4. Or alternately just clone this repository in the "packages" folder.
+  ```
+  Preferences ❯ Browse Packages...
+  git clone https://github.com/krikx/Sticky
+  ```
