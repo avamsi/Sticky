@@ -8,7 +8,7 @@ You can stick/unstick tabs from Command Palette.
 ![Failed to load!](https://i.imgur.com/sDVbtfp.png)
 
 You can know "stickiness" of a tab from status bar.  
-![Failed to load!](https://i.imgur.com/1g6mvZ3.png)
+![Failed to load!](https://i.imgur.com/FeBSW8R.png)
 
 ### Installation
 Download and extract to your packages folder. (`Menu` &#10153; `Preferences` &#10153; `Browse Packages`)
