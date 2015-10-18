@@ -5,10 +5,10 @@ Sublime Text 3 plugin to "stick" tabs.
 Sticky tabs don't close with normal keybinding `ctrl+w`.
 
 You can stick/unstick tabs from Command Palette.  
-![Failed to load!](https://i.imgur.com/sDVbtfp.png)
+![Failed to load!](http://i.imgur.com/qcmKUx4.png)
 
 You can know "stickiness" of a tab from status bar.  
-![Failed to load!](https://i.imgur.com/FeBSW8R.png)
+![Failed to load!](http://i.imgur.com/lZ0hxV4.png)
 
 ### Installation
 1. Install [Package Control](https://packagecontrol.io/installation).
